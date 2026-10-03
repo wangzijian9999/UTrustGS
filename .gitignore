@@ -1,0 +1,36 @@
+# Local credentials and environments
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.venv/
+venv/
+# Python caches and build products
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.cache/
+build/
+dist/
+*.egg-info/
+# Datasets, weights, checkpoints, and generated training output
+data/
+datasets/
+models/
+checkpoints/
+output/
+outputs/
+results/
+logs/
+wandb/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npz
+*.npy
+*.ply
+*.log
+events.out.tfevents.*
